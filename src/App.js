@@ -3,11 +3,13 @@ import "./App.css";
 import React, { useState, useEffect } from "react";
 import pic1 from "./assests/pic1.svg";
 import Button from "./components/shared/Button";
+import Navbar from "./components/shared/Navbar";
 
 function App() {
   return (
     <div className="w-screen h-screen">
-      <div className=" flex flex-col items-center justify-center h-full">
+      <Navbar />
+      <div className=" flex flex-col items-center justify-center h-9/10">
         <h1 className="text-2xl "> abc invites you to take the quiz</h1>
         <p className=" text-2xl font-bold">Quiz Name</p>
         <img src={pic1}></img>
