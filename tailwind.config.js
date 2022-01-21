@@ -3,7 +3,7 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
-      backgroundColor: { "app-blue": "#4C62B7" },
+      backgroundColor: { "app-blue": "#4C62B7", "app-gray": "#DEE6FB" },
       height: { "1/10": "10%", "9/10": "90%" },
     },
   },
