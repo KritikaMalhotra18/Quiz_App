@@ -4,7 +4,7 @@ import user from "../../assests/user.svg";
 import angular from "../../assests/angularBracket.svg";
 function QuizPageNavBar() {
   return (
-    <div className="QuizPageNavBar flex justify-between mx-2 h-1/10 items-center">
+    <div className="QuizPageNavBar flex justify-between mx-2 h-1/10 items-center pt-2 ">
       <div className="flex justify-between w-1/4 items-center">
         <img src={logo}></img>
         <img src={angular}/>

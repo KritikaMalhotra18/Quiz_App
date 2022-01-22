@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./Home";
-import QuizPageNavBar from "./QuizPage"
+import QuizPage from "./QuizPage"
 import PageNotFound from "./PageNotFound";
 function AppRoute() {
   return (
@@ -9,7 +9,7 @@ function AppRoute() {
       <Router>
         <Switch>
           <Route exact path="/" component={Home}/>
-          <Route exact path="/quizPage" component={QuizPageNavBar}/>
+          <Route exact path="/quizPage" component={QuizPage}/>
           <Route path="*" component = {PageNotFound}/>
         
 
