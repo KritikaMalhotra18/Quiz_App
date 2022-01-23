@@ -5,7 +5,7 @@ import QuizPage from "./QuizPage"
 import PageNotFound from "./PageNotFound";
 function AppRoute() {
   return (
-    <div className = "w-screen h-screen">
+    <div className = "w-screen h-screen font-poppins">
       <Router>
         <Switch>
           <Route exact path="/" component={Home}/>

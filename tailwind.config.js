@@ -5,6 +5,9 @@ module.exports = {
     extend: {
       backgroundColor: { "app-blue": "#4C62B7", "app-gray": "#DEE6FB" },
       height: { "1/10": "10%", "9/10": "90%" },
+      fontFamily:{
+        'poppins':['Poppins']
+    }
     },
   },
   variants: {
