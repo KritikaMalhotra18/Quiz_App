@@ -91,7 +91,7 @@ function QuestionArea() {
           </div>
           <div className="w-28 h-8 text-sm">
             <Button
-              classes="bg-app-blue justify-center items-center text-white text-sm"
+              classes="bg-app-blue text-white text-sm"
               text="Submit"
               onclickfn={() => {}}
             />

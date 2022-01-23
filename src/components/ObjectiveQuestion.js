@@ -14,9 +14,6 @@ function ObjectiveQuestion({ question, number, setAnswer }) {
         <p className="mb-2">{question.statement}</p>
         {/* {"option1"} */}
         {question.options.map((option) => {
-          console.log("yoii", currSelected);
-          console.log(option==currSelected);
-          console.log(option===currSelected);
           return (
             <div 
               className="flex items-center "
